@@ -1,0 +1,12 @@
+.list-inline {
+  width: 180px;
+}
+.list-inline>li { width: 100%; }
+
+.fancy-dropdown .menu {
+  display: none;
+}
+
+.fancy-dropdown.open .menu, .fancy-dropdown:hover .menu {
+  display: block;
+}
