@@ -15,12 +15,6 @@ angular.module('appRoutes', [])
                 controller: 'MainController'
             })
 
-        // about page
-            .when('/about', {
-                templateUrl: 'views/about.html',
-                controller: 'AboutController'
-            })
-
         $locationProvider.html5Mode(true)
     }])
 	
