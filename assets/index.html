@@ -26,28 +26,22 @@
 
     <!-- Importing main-custom library -->
     <script type="text/javascript" src="./js/app.js"></script>
-    <script type="text/javascript" src="./js/appRoutes.js"></script>
     <script type="text/javascript" src="./js/controllers/MainCtrl.js"></script>
-    <script type="text/javascript" src="./js/controllers/AboutCtrl.js"></script>
     <script type="text/javascript" src="./js/controllers/GraphCtrl.js"></script>
-    <script type="text/javascript" src="./js/services/MainService.js"></script>
     
 </head>
 
 <body layout="row" layout-fill>
     <header>
-        <nav class="navbar navbar-default">
-            <div class="container">
-                <ul>
-                    <li><a href="#"><i class="fa fa-line-chart" aria-hidden="true"></i> RIMT</a></li>
-                    <li><a href="#About"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a></li>
-                </ul>
-            </div>
-        </nav>
+		<div>
+			<h1> Research Impact Monitoring Tool </h1>
+		</div>
     </header>
+	
     <div id="">
         <div ng-view></div>
     </div>
+	
 </body>
 
 </html>
