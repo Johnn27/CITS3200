@@ -1,6 +1,6 @@
 {
   "type": "ColumnChart",
-  "displayed": false,
+  "displayed": true,
   "cssStyle": "height:600px;width: 100%",
   "data": {
     "cols": [{

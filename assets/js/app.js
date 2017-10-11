@@ -1,7 +1,8 @@
 // assets/js/app.js
 
-var app =   angular.module("app", ['ngRoute', 'appRoutes', 'MainCtrl', 
-            'MainService', 'GraphCtrl', 'DropDownCtrl'])
+var app = angular.module("app", ['ngRoute', 'appRoutes', 'MainCtrl',
+    'MainService', 'GraphCtrl', 'DropDownCtrl'
+])
 
 
 angular.module('appRoutes', [])
@@ -11,13 +12,13 @@ angular.module('appRoutes', [])
 
         // main page
             .when('/', {
-                templateUrl: 'views/main.html',
-                controller: 'MainController'
-            })
+            templateUrl: 'assets/views/main.html',
+            controller: 'MainController'
+        })
 
         $locationProvider.html5Mode(true)
     }])
-	
+
 
 angular.module('MainService', []).factory('Main', ['$http', function($http) {
     return {
