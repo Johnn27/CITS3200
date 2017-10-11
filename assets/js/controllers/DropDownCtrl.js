@@ -1,3 +1,5 @@
+// assets/js/controllers/DropDownCtrl.js
+
 angular.module('DropDownCtrl', []).controller('DropDownController', ['$scope', function($scope) {}])
     .directive('userDropdown', ['$document', function($document) {
         return {

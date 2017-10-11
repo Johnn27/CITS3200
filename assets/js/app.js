@@ -1,8 +1,6 @@
 // assets/js/app.js
 
-var app = angular.module("app", ['ngRoute', 'appRoutes', 'MainCtrl',
-    'MainService', 'GraphCtrl', 'DropDownCtrl'
-])
+var app = angular.module("app", ['ngRoute', 'appRoutes', 'MainCtrl', 'GraphCtrl', 'DropDownCtrl'])
 
 
 angular.module('appRoutes', [])

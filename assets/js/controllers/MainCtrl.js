@@ -1,4 +1,4 @@
-// assets/js/controllers/AboutCtrl.js
+// assets/js/controllers/MainCtrl.js
 
 angular.module('MainCtrl', [])
     .controller('MainController', function($scope) {
