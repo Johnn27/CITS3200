@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "angular": "^1.4.7",
+    "aws-sdk": "^2.131.0",
     "body-parser": "^1.18.2",
     "express": "^4.16.0",
     "grunt": "^1.0.1",
