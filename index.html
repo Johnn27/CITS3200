@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html ng-app="app" lang="en">
+
+<head>
+    <base href="/">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Research Impact Monitoring Tool</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Importing Font Awesome library -->
+    <link rel="stylesheet" href="./bower_components/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./bower_components/font-awesome/css/font-awesome.min.css">
+
+    <!-- Importing Bootstrap library -->
+    <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script type="text/javascript" src="./bower_components/bootstrap/dist/css/bootstrap.min.css"></script>
+    <script type="text/javascript" src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Importing Angular library -->
+    <script type="text/javascript" src="./node_modules/angular/angular.js"></script>
+    <script type="text/javascript" src="./node_modules/angular/angular.min.js"></script>
+    <script type="text/javascript" src="./bower_components/angular-route/angular-route.min.js"></script>
+
+    <!-- Importing Google Charts library -->
+    <script src="./bower_components/angular-google-chart/ng-google-chart.js"></script>
+    <script src="./bower_components/angular-google-chart/ng-google-chart.min.js"></script>
+
+    <!-- Importing main library -->
+    <script type="text/javascript" src="./assets/js/app.js"></script>
+    <script type="text/javascript" src="./assets/js/controllers/MainCtrl.js"></script>
+    <script type="text/javascript" src="./assets/js/controllers/GraphCtrl.js"></script>
+    <script type="text/javascript" src="./assets/js/controllers/DropDownCtrl.js"></script>
+
+
+</head>
+
+<body layout="row" layout-fill>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <ul>
+                    <li><a href="/"><i class="fa fa-line-chart" aria-hidden="true"></i> RIMT </a></li>
+                    <li><a href="/source"><i class="fa fa-info-circle" aria-hidden="true"></i> Source List </a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div>
+            <h1> Research Impact Monitoring Tool </h1>
+        </div>
+    </header>
+
+    <div id="">
+        <div ng-view></div>
+    </div>
+
+</body>
+
+</html>
