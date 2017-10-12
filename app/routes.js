@@ -8,6 +8,13 @@ module.exports = function(app) {
 
     // any api routes/server routes here ============
 
+    app.put('/createSource', function(req, res) {
+
+    })
+
+    app.get('/getSources', function(req, res) {
+
+    })
 
     // frontend routes ==============================
     app.get('*', function(req, res) {

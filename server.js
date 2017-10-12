@@ -10,6 +10,8 @@ var methodOverride = require('method-override')
 
 // database config
 
+var db = require('./app/db.js')
+
 // set port
 var port = process.env.PORT || 8080
 

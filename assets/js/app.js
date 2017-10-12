@@ -1,6 +1,8 @@
 // assets/js/app.js
 
-var app = angular.module("app", ['ngRoute', 'appRoutes', 'MainCtrl', 'GraphCtrl', 'DropDownCtrl'])
+var app = angular.module("app", ['ngRoute', 'appRoutes', 'MainCtrl', 'GraphCtrl', 'DropDownCtrl',
+    'SourceService'
+])
 
 
 angular.module('appRoutes', [])
@@ -14,12 +16,25 @@ angular.module('appRoutes', [])
             controller: 'MainController'
         })
 
+        .when('/source', {
+            templateUrl: 'assets/views/source.html',
+            controller: 'SourceController'
+        })
+
         $locationProvider.html5Mode(true)
     }])
 
 
-angular.module('MainService', []).factory('Main', ['$http', function($http) {
-    return {
-        // call to get 
+angular.module('SourceService', []).factory('sourceAPIservice', ['$http', function($http) {
+
+    var sourceAPI = {}
+
+    sourceAPI.getSources = function() {
+        return $http({
+            method: 'JSONP',
+            url: '/getSources'
+        })
     }
+
+    return sourceAPI
 }])
