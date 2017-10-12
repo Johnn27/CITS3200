@@ -22,4 +22,4 @@ var gracefulShutdown = function(msg, callback) {
     })
 }
 
-var model = require('app/schema.js')
+var model = require('./schema.js')
