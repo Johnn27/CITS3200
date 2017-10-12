@@ -1,7 +1,7 @@
 // assets/js/app.js
 
 var app = angular.module("app", ['ngRoute', 'appRoutes', 'MainCtrl', 'GraphCtrl', 'DropDownCtrl',
-    'SourceService'
+    'SourceCtrl', 'SourceService'
 ])
 
 
@@ -32,7 +32,7 @@ angular.module('SourceService', []).factory('sourceAPIservice', ['$http', functi
     sourceAPI.getSources = function() {
         return $http({
             method: 'JSONP',
-            url: '/getSources'
+            url: '/api/getSources'
         })
     }
 

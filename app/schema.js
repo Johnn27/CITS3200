@@ -6,4 +6,4 @@ var sourceSchema = new Schema({
     url: { type: String }
 })
 
-mongoose.model('Source', sourceSchema, sources)
+mongoose.model('Source', sourceSchema)

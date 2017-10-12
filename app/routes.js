@@ -2,18 +2,59 @@
 
 var path = require('path')
 
-// any model stuff here
-
 module.exports = function(app) {
 
     // any api routes/server routes here ============
 
-    app.put('/createSource', function(req, res) {
+    app.get('/api/sources', function(req, res) {
+        Source.find(function(err, sources) {
 
+            if (err) {
+                res.send(err)
+            }
+
+            res.json(sources)
+        })
     })
 
-    app.get('/getSources', function(req, res) {
+    app.post('/api/sources', function(req, res) {
 
+        Source.create({
+            name: req.body.name,
+            url: req.body.url
+        }, function(err, source) {
+            if (err) {
+                res.send(err)
+            }
+            /*
+                        Source.find(function (err, sources) {
+                            if(err) {
+                                res.send(err)
+                            }
+
+                            res.json(sources)
+                        })
+            */
+        })
+    })
+
+    app.delete('/api/sources/:source_id', function(req, res) {
+        Source.remove({
+            _id: req.params.source_id
+        }, function(err, source) {
+            if (err) {
+                res.send(err)
+            }
+            /*
+                        Source.find(function (err, sources) {
+                            if(err) {
+                                res.send(err)
+                            }
+
+                            res.json(sources)
+                        })
+            */
+        })
     })
 
     // frontend routes ==============================
