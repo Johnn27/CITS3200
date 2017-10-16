@@ -1,6 +1,6 @@
 // assets/js/app.js
 
-var app = angular.module("app", ['ngRoute', 'appRoutes', 'MainCtrl', 'GraphCtrl', 'DropDownCtrl',
+var app = angular.module("app", ['ngRoute', 'appRoutes', 'MainCtrl', 'GraphCtrl',
     'SourceCtrl', 'SourceService'
 ])
 
@@ -31,10 +31,41 @@ angular.module('SourceService', []).factory('sourceAPIservice', ['$http', functi
 
     sourceAPI.getSources = function() {
         return $http({
-            method: 'JSONP',
-            url: '/api/getSources'
-        })
+                method: 'GET',
+                url: '/api/sources'
+            }).then(function(response) {
+                return responese.data
+            })
+            .catch(function(error) {
+                console.error('ERROR: ', error)
+                throw error
+            })
     }
 
+    sourceAPI.addSource = function() {
+        return $http({
+                method: 'POST',
+                url: '/api/sources'
+            }).then(function(response) {
+                return response.data
+            })
+            .catch(function(error) {
+                console.error('ERROR: ', error)
+                throw error
+            })
+    }
+
+    sourceAPI.deleteSource = function() {
+        return $http({
+                method: 'DELETE',
+                url: 'api/sources/:source_id'
+            }).then(function(response) {
+                return response.data
+            })
+            .catch(function(error) {
+                console.error('ERROR: ', error)
+                throw error
+            })
+    }
     return sourceAPI
 }])

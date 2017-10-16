@@ -4,8 +4,11 @@ angular.module('SourceCtrl', []).controller('SourceController', function($scope,
     $scope.sourceList = []
     $scope.nameFilter = null
 
-    sourceAPIservice.getSources().success(function(response) {
-        $scope.sourceList = response.data
-    })
+    $scope.getSources = function() {
+        sourceAPIservice.getSources().then(function(response) {
+            $scope.sourceList = response.data
+            $log.info($scope.sourceList)
+        })
+    }
 
 })

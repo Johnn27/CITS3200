@@ -26,15 +26,15 @@ module.exports = function(app) {
             if (err) {
                 res.send(err)
             }
-            /*
-                        Source.find(function (err, sources) {
-                            if(err) {
-                                res.send(err)
-                            }
 
-                            res.json(sources)
-                        })
-            */
+            Source.find(function(err, sources) {
+                if (err) {
+                    res.send(err)
+                }
+
+                res.json(sources)
+            })
+
         })
     })
 
@@ -45,15 +45,15 @@ module.exports = function(app) {
             if (err) {
                 res.send(err)
             }
-            /*
-                        Source.find(function (err, sources) {
-                            if(err) {
-                                res.send(err)
-                            }
 
-                            res.json(sources)
-                        })
-            */
+            Source.find(function(err, sources) {
+                if (err) {
+                    res.send(err)
+                }
+
+                res.json(sources)
+            })
+
         })
     })
 

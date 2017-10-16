@@ -10,6 +10,21 @@
     </div>
 
     <div>
+        <input type="submit" ng-controller="SourceController">
+    </div>
+
+    <div>
         <p>{{status}}</p>
     </div>
+
+    <div class="dropdown pull-right makePaymentDropdownMainDiv" auto-close="outsideClick">
+        <span>Delete a source</span>
+        <button class="btn btn-default dropdown-toggle makePaymentDropdownBtn" type="button" id="individualDrop" data-toggle="dropdown">{{payment.entity}}<span class="caret pull-right"></span></button>
+        <span ng-show="submitted"><label class="error">Select an Individual</label></span>
+        <ul class="dropdown-menu makePaymentDropdownUlStyle" role="menu" aria-labelledby="individualDrop">
+            <input disable-auto-close type="search" ng-model="searchFilter" class="makePaymentDropdownSearchBox" placeholder="Search"></input>
+            <li role="presentation" ng-repeat="indi in individuals | filter: searchFilter"><a role="menuitem" ng-click="selectEntity(indi)">{{indi}}</a></li>
+        </ul>
+    </div>
+
 </div>
