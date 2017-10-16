@@ -14,3 +14,11 @@
 .fancy-dropdown:hover .menu {
     display: block;
 }
+
+.dropdown {
+    float: left;
+}
+
+.col-xs-6 {
+    float: right;
+}

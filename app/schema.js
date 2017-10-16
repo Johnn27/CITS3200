@@ -6,4 +6,6 @@ var sourceSchema = new Schema({
     url: { type: String }
 })
 
-module.exports = mongoose.model('Source', sourceSchema)
+module.exports = {
+    Source: mongoose.model('source', sourceSchema)
+}

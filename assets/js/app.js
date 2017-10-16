@@ -1,7 +1,7 @@
 // assets/js/app.js
 
 var app = angular.module("app", ['ngRoute', 'appRoutes', 'MainCtrl', 'GraphCtrl',
-    'SourceCtrl', 'SourceService', 'multipleSelect'
+    'SourceCtrl', 'SourceService', 'angularjs-dropdown-multiselect'
 ])
 
 
@@ -34,7 +34,7 @@ angular.module('SourceService', []).factory('sourceAPIservice', ['$http', functi
                 method: 'GET',
                 url: '/api/sources'
             }).then(function(response) {
-                return responese.data
+                return response
             })
             .catch(function(error) {
                 console.error('ERROR: ', error)
@@ -42,12 +42,16 @@ angular.module('SourceService', []).factory('sourceAPIservice', ['$http', functi
             })
     }
 
-    sourceAPI.addSource = function() {
+    sourceAPI.addSource = function(sourceData) {
         return $http({
                 method: 'POST',
-                url: '/api/sources'
+                url: '/api/sources',
+                headers: {
+                    'Content-Type': "application/json"
+                },
+                data: sourceData
             }).then(function(response) {
-                return response.data
+                return response
             })
             .catch(function(error) {
                 console.error('ERROR: ', error)
@@ -55,12 +59,12 @@ angular.module('SourceService', []).factory('sourceAPIservice', ['$http', functi
             })
     }
 
-    sourceAPI.deleteSource = function() {
+    sourceAPI.deleteSource = function(source_id) {
         return $http({
                 method: 'DELETE',
-                url: 'api/sources/:source_id'
+                url: 'api/sources/:' + source_id
             }).then(function(response) {
-                return response.data
+                return response
             })
             .catch(function(error) {
                 console.error('ERROR: ', error)

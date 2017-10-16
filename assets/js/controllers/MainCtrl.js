@@ -1,28 +1,34 @@
 // assets/js/controllers/MainCtrl.js
 
-angular.module('MainCtrl', [])
+angular.module('MainCtrl', ['angularjs-dropdown-multiselect'])
     .controller('MainController', function($scope, sourceAPIservice) {
-        $scope.sourceModel = {}
+        $scope.sourceModel = []
         $scope.timeModel = {}
 
-        $scope.sourceSettings = { enableSearch: true }
-        $scope.timeSettings = { selectionLimit: 1 }
+        $scope.mainSettings = {
+            enableSearch: true,
+            template: '<b>{{option.name}}</b>'
+        }
+
+        $scope.timeSettings = {
+            selectionLimit: 1
+        }
 
         $scope.getSources = function() {
             sourceAPIservice.getSources().then(function(response) {
                 $scope.sourceList = response.data
-                $log.info($scope.sourceList)
+                console.log($scope.sourceList)
             })
         }
 
         $scope.timeList = [{
-            "id": 1,
-            "label": "Daily"
+            id: 1,
+            label: "Daily"
         }, {
-            "id": 2,
-            "label": "Weekly"
+            id: 2,
+            label: "Weekly"
         }, {
-            "id": 3,
-            "label": "Monthly"
+            id: 3,
+            label: "Monthly"
         }]
     })

@@ -1,30 +1,26 @@
-<div ng-controller="SourceController" class="" id="">
-    <div>
-        <p>Enter the source's name: </p>
-        <input type="text" id="">
-    </div>
+<div ng-controller="SourceController" class="container" ng-init="getSources()">
+    <form ng-submit="submitCreate()" ng-controller="SourceController">
+        <div class="container">
+            <p>Enter the source's name: </p>
+            <input type="text" id="" ng-model="sourceName">
+        </div>
 
-    <div>
-        <p>Enter the RSS url: </p>
-        <input type="text" id="">
-    </div>
+        <div class="containter">
+            <p>Enter the RSS url: </p>
+            <input type="text" id="" ng-model="sourceRSS">
+        </div>
 
-    <div>
-        <input type="submit" ng-controller="SourceController">
-    </div>
+        <div class="container">
+            <input type="submit">
+        </div>
 
-    <div>
-        <p>{{status}}</p>
-    </div>
+        <div>
+            <p>{{status}}</p>
+        </div>
+    </form>
 
-    <div class="dropdown pull-right makePaymentDropdownMainDiv" auto-close="outsideClick">
-        <span>Delete a source</span>
-        <button class="btn btn-default dropdown-toggle makePaymentDropdownBtn" type="button" id="individualDrop" data-toggle="dropdown">{{payment.entity}}<span class="caret pull-right"></span></button>
-        <span ng-show="submitted"><label class="error">Select an Individual</label></span>
-        <ul class="dropdown-menu makePaymentDropdownUlStyle" role="menu" aria-labelledby="individualDrop">
-            <input disable-auto-close type="search" ng-model="searchFilter" class="makePaymentDropdownSearchBox" placeholder="Search"></input>
-            <li role="presentation" ng-repeat="indi in individuals | filter: searchFilter"><a role="menuitem" ng-click="selectEntity(indi)">{{indi}}</a></li>
-        </ul>
-    </div>
+    <form ng-submit="submitDelete()" ng-controller="SourceController">
+        <div ng-dropdown-multiselect="" options="sourceList" selected-model="delModel" extra-settings="deleteSettings"></div>
+    </form>
 
 </div>

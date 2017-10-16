@@ -2,6 +2,8 @@
 
 var serveStatic = require('serve-static')
 var path = require('path')
+var mongoose = require('mongoose')
+var Source = mongoose.model('source')
 
 module.exports = function(app) {
 

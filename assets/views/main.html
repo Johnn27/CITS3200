@@ -1,12 +1,18 @@
 <!-- assets/views/main.html -->
 
 
-<div ng-controller="MainController">
+<div ng-controller="MainController" class="container" ng-init="getSources()">
     <div class="col-xs-8 col-xs-offset-2 text-center">
         <p class="lead">Select Options</p>
 
-        <multiple-autocomplete ng-model="sourceModel" object-property="name" suggestions-arr="sourceList"></multiple-autocomplete>
-        <multiple-autocomplete ng-model="timeModel" suggestions-arr="timeList"></multiple-autocomplete>
+        <div class="dropdown">
+            <p>Select sources: </p>
+            <div ng-dropdown-multiselect="" options="sourceList" selected-model="sourceModel" extra-settings="mainSettings"></div>
+        </div>
+        <div class="dropdown">
+            <p>Select timespan: </p>
+            <div ng-dropdown-multiselect="" options="timeList" selected-model="timeModel" extra-settings="timeSettings"></div>
+        </div>
 
         <button class="col-xs-6"> Load Lexicon</button>
         <div>
