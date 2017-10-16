@@ -3,7 +3,7 @@
 angular.module('MainCtrl', ['angularjs-dropdown-multiselect'])
     .controller('MainController', function($scope, sourceAPIservice) {
         $scope.sourceModel = []
-        $scope.timeModel = {}
+        $scope.timeModel = []
 
         $scope.mainSettings = {
             enableSearch: true,
@@ -31,4 +31,6 @@ angular.module('MainCtrl', ['angularjs-dropdown-multiselect'])
             id: 3,
             label: "Monthly"
         }]
+
+        $scope.keywords = ""
     })

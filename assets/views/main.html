@@ -5,18 +5,18 @@
     <div class="col-xs-8 col-xs-offset-2 text-center">
         <p class="lead">Select Options</p>
 
-        <div class="dropdown">
+        <div class="main-input" id="select-s">
             <p>Select sources: </p>
             <div ng-dropdown-multiselect="" options="sourceList" selected-model="sourceModel" extra-settings="mainSettings"></div>
         </div>
-        <div class="dropdown">
+        <div class="main-input" id="select-t">
             <p>Select timespan: </p>
             <div ng-dropdown-multiselect="" options="timeList" selected-model="timeModel" extra-settings="timeSettings"></div>
         </div>
 
-        <button class="col-xs-6"> Load Lexicon</button>
-        <div>
-            Insert Keywords: <input ng-model="name">
+        <button class="main-input" id="lex"> Load Lexicon </button>
+        <div class="main-input">
+            Insert Keywords: <input ng-model="keywords">
         </div>
     </div>
 

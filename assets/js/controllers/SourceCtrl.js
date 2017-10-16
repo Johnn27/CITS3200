@@ -3,7 +3,7 @@
 angular.module('SourceCtrl', ['angularjs-dropdown-multiselect'])
     .controller('SourceController', function($scope, sourceAPIservice) {
         $scope.sourceList = []
-        $scope.delModel = {}
+        $scope.deleteModel = []
         $scope.sourceName = ""
         $scope.sourceRSS = ""
 
@@ -31,7 +31,7 @@ angular.module('SourceCtrl', ['angularjs-dropdown-multiselect'])
         }
 
         $scope.submitDelete = function() {
-            sourceID = $scope.delModel._id
+            sourceID = $scope.deleteModel[0]._id
             sourceAPIservice.deleteSource(sourceID).then(function(response) {
                 $scope.sourceList = response.data
                 console.log($scope.sourceList)

@@ -1,26 +1,30 @@
 <div ng-controller="SourceController" class="container" ng-init="getSources()">
-    <form ng-submit="submitCreate()" ng-controller="SourceController">
-        <div class="container">
+
+    <form ng-submit="submitCreate()">
+        <div class="source-input">
             <p>Enter the source's name: </p>
             <input type="text" id="" ng-model="sourceName">
         </div>
 
-        <div class="containter">
+        <div class="source-input">
             <p>Enter the RSS url: </p>
             <input type="text" id="" ng-model="sourceRSS">
         </div>
 
-        <div class="container">
+        <div class="source-input">
             <input type="submit">
-        </div>
-
-        <div>
-            <p>{{status}}</p>
         </div>
     </form>
 
-    <form ng-submit="submitDelete()" ng-controller="SourceController">
-        <div ng-dropdown-multiselect="" options="sourceList" selected-model="delModel" extra-settings="deleteSettings"></div>
+    <form ng-submit="submitDelete()">
+        <p>Delete a source: </p>
+        <div class="source-input">
+            <div ng-dropdown-multiselect="" options="sourceList" selected-model="deleteModel" extra-settings="deleteSettings"></div>
+        </div>
+
+        <div class="source-input">
+            <input type="submit" value="Delete">
+        </div>
     </form>
 
 </div>
