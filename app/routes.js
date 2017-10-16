@@ -1,5 +1,6 @@
 // app/routes.js
 
+var serveStatic = require('serve-static')
 var path = require('path')
 
 module.exports = function(app) {
@@ -58,7 +59,7 @@ module.exports = function(app) {
     })
 
     // frontend routes ==============================
-    app.get('*', function(req, res) {
-        res.sendFile(path.resolve('index.html'))
-    })
+    app.use(serveStatic(__dirname, {
+        'index': ['index.html']
+    }))
 }

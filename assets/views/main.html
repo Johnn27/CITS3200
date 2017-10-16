@@ -1,10 +1,13 @@
 <!-- assets/views/main.html -->
 
+
 <div ng-controller="MainController">
     <div class="col-xs-8 col-xs-offset-2 text-center">
         <p class="lead">Select Options</p>
-        <div ng-dropdown-multiselect="" options="x for x in sourceList" selected-model="sourceModel" extra-settings="sourceSettings"></div>
-        <div ng-dropdown-multiselect="" options="y for y in timeList" selected-model="timeModel" extra-settings="timeSettings"></div>
+
+        <multiple-autocomplete ng-model="sourceModel" object-property="name" suggestions-arr="sourceList"></multiple-autocomplete>
+        <multiple-autocomplete ng-model="timeModel" suggestions-arr="timeList"></multiple-autocomplete>
+
         <button class="col-xs-6"> Load Lexicon</button>
         <div>
             Insert Keywords: <input ng-model="name">

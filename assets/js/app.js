@@ -1,7 +1,7 @@
 // assets/js/app.js
 
 var app = angular.module("app", ['ngRoute', 'appRoutes', 'MainCtrl', 'GraphCtrl',
-    'SourceCtrl', 'SourceService'
+    'SourceCtrl', 'SourceService', 'multipleSelect'
 ])
 
 
