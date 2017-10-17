@@ -2,6 +2,7 @@
 
 
 <div ng-controller="MainController" class="container" ng-init="getSources()">
+	<form ng-submit="searchSources()">
     <div class="col-xs-8 col-xs-offset-2 text-center">
         <p class="lead">Select Options</p>
 
@@ -19,11 +20,13 @@
             Insert Keywords: <input ng-model="keywords">
         </div>
     </div>
+	<!-- Trigger the modal with a button -->
+    <button type="submit" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">View Statistics</button>
+
+	</form>
 
     <div class="container">
-        <!-- Trigger the modal with a button -->
-        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">View Statistics</button>
-
+        
         <!-- Modal -->
         <div class="modal fade" id="myModal" role="dialog">
             <div class="modal-dialog modal-lg">

@@ -33,4 +33,8 @@ angular.module('MainCtrl', ['angularjs-dropdown-multiselect'])
         }]
 
         $scope.keywords = ""
+		
+		$scope.searchSources = function() {
+			
+		}
     })
