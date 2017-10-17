@@ -106,26 +106,26 @@ var request = require('request')
 angular.module('RssService', [])
     .factory('rssAPIservice', ['$http', function($http) {
 
-        var rssAPI = {}
+            var rssAPI = {}
 
-        rssAPI.getLinks = function(source) {
+            rssAPI.getLinks = function(source) {
 
-            var req = request(source.url)
-            var feedparser = new Feedparser()
+                var req = request(source.url)
+                var feedparser = new Feedparser()
 
-            req.on('error', function(error) {
-                // handle errors
-            })
+                req.on('error', function(error) {
+                    // handle errors
+                })
 
-            req.on('response', function(res) {
-                var stream = this
+                req.on('response', function(res) {
+                        var stream = this
 
-                if (res.statusCode !== 200 _ {
-                        this.emit('error', new Error('Bad status code'))
-                    } else {
-                        stream.pipe(feedparser)
-                    })
-            })
+                        if (res.statusCode !== 200) {
+                            this.emit('error', new Error('Bad status code'))
+                        } else {
+                            stream.pipe(feedparser)
+                        })
+                })
 
             feedparser.on('error', function(error) {
                 // handle errors
