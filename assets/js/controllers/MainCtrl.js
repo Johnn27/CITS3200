@@ -1,7 +1,7 @@
 // assets/js/controllers/MainCtrl.js
 
 angular.module('MainCtrl', ['angularjs-dropdown-multiselect'])
-    .controller('MainController', function($scope, sourceAPIservice) {
+    .controller('MainController', function($scope, sourceAPIservice, rssAPIservice) {
         $scope.sourceModel = []
         $scope.timeModel = []
 
@@ -34,7 +34,9 @@ angular.module('MainCtrl', ['angularjs-dropdown-multiselect'])
 
         $scope.keywords = ""
 		
-		$scope.searchSources = function() {
-			
-		}
+	$scope.searchSources = function() {
+		rssAPIservice.getLinks(sourceModel[0]).then(function(response) {
+			$scope.rssout = response.data
+		})
+	}
     })

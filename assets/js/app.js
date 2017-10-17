@@ -1,7 +1,7 @@
 // assets/js/app.js
 
 var app = angular.module("app", ['ngRoute', 'appRoutes', 'MainCtrl', 'GraphCtrl',
-    'SourceCtrl', 'SourceService', 'angularjs-dropdown-multiselect'
+    'SourceCtrl', 'SourceService', 'RssService', 'angularjs-dropdown-multiselect'
 ])
 
 app.directive('bsActiveLink', ['$location', function($location) {
@@ -92,6 +92,31 @@ angular.module('SourceService', [])
     }
     return sourceAPI
 }])
+
+angular.module('RssService', [])
+.factory('rssAPIservice', ['$http', function($http) {
+	
+	var rssAPI = {}
+
+	rssAPI.getLinks = function(source) {
+
+		var url = "https://www.inoreader.com/reader/api/0/stream/contents/feed/"
+				+ source.url +
+				"?AppId=1000000612&AppKey=jrGE4gC_lD4ejlLjpACx6PeJRnLae80d"
+
+		return $http({
+			method: "GET",
+			url: url
+		}).then(function(response) {
+			return response
+		}).catch(function(error) {
+			console.error('ERROR: ', error)
+			throw error
+		})
+	}
+	return rssAPI
+}])
+			
 
 // ref - https://stackoverflow.com/questions/16199418/how-to-set-bootstrap-navbar-active-class-with-angular-js
 // ref - https://scotch.io/tutorials/creating-a-single-page-todo-app-with-node-and-angular
