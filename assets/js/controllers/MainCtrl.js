@@ -33,10 +33,10 @@ angular.module('MainCtrl', ['angularjs-dropdown-multiselect'])
         }]
 
         $scope.keywords = ""
-		
-	$scope.searchSources = function() {
-		rssAPIservice.getLinks(sourceModel[0]).then(function(response) {
-			$scope.rssout = response.data
-		})
-	}
+
+        $scope.searchSources = function() {
+            rssAPIservice.getLinks($scope.sourceModel[0]).then(function(response) {
+                $scope.rssout = response.data
+            })
+        }
     })

@@ -6,6 +6,7 @@
     "angularjs-dropdown-multiselect": "^2.0.0-beta.10",
     "body-parser": "^1.18.2",
     "express": "^4.16.0",
+    "feedparser": "^2.2.2",
     "grunt": "^1.0.1",
     "method-override": "^2.3.10",
     "mongoose": "^4.7.2",
