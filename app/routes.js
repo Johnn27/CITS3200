@@ -5,6 +5,9 @@ var path = require('path')
 var mongoose = require('mongoose')
 var Source = mongoose.model('source')
 
+var Feedparser = require('feedparser')
+var request = require('request')
+
 module.exports = function(app) {
 
     // any api routes/server routes here ============
@@ -59,6 +62,43 @@ module.exports = function(app) {
 
         })
     })
+
+    /*
+    app.get('/api/rss', function(req, res) {
+
+        var feedReq = request(req.body.url)
+        var feedparser = new Feedparser()
+
+        feedReq.on('error', function(error) {
+            // handle errors
+        })
+
+        feedReq.on('response', function(res) {
+            var stream = this
+
+            if (res.statusCode !== 200) {
+                this.emit('error', new Error('Bad status code'))
+            } else {
+                stream.pipe(feedparser)
+            }
+        })
+
+        feedparser.on('error', function(error) {
+            // handle errors
+        })
+
+        feedparser.on('readable', function() {
+            var stream = this
+            var meta = this.meta
+            var item
+
+            while (item = stream.read()) {
+                console.log(item)
+                res.json(item)
+            }
+        })
+    })
+    */
 
     // frontend routes ==============================
     app.use(serveStatic(__dirname, {

@@ -100,69 +100,36 @@ angular.module('SourceService', [])
 
 // RSS API calls
 
-var Feedparser = require('feedparser')
-var request = require('request')
 
 angular.module('RssService', [])
     .factory('rssAPIservice', ['$http', function($http) {
 
-            var rssAPI = {}
+        var rssAPI = {}
 
-            rssAPI.getLinks = function(source) {
+        rssAPI.getLinks = function(source) {
 
-                var req = request(source.url)
-                var feedparser = new Feedparser()
-
-                req.on('error', function(error) {
-                    // handle errors
-                })
-
-                req.on('response', function(res) {
-                        var stream = this
-
-                        if (res.statusCode !== 200) {
-                            this.emit('error', new Error('Bad status code'))
-                        } else {
-                            stream.pipe(feedparser)
-                        })
-                })
-
-            feedparser.on('error', function(error) {
-                // handle errors
+            /*var proxy = "https://cors-anywhere.herokuapp.com/"
+            var url = proxy + "https://www.inoreader.com/reader/api/0/stream/contents/feed/" +
+                source.url +
+                "?AppId=1000000612&AppKey=jrGE4gC_lD4ejlLjpACx6PeJRnLae80d"
+*/
+            return $http({
+                method: "GET",
+                url: "https://api.rss2json.com/v1/api.json",
+                dataType: "json",
+                //crossDomain: true,
+                //withCredentials: true,
+                data: {
+                    rss_url: source.url,
+                    api_key: "m9v3sjw9mcc3syysgtylp5a2xvk1vdcauayg0s9j"
+                }
+            }).then(function(response) {
+                if (response.status != 'ok') {
+                    throw response.message
+                } else {
+                    return response
+                }
             })
-
-            feedparser.on('readable', function() {
-                    var stream = this
-                    var meta = this.meta
-                    var item
-
-                    while (item = stream.read()) {
-                        console.log(item)
-                        return item
-                    }
-                })
-                /*
-                                    var proxy = "https://cors-anywhere.herokuapp.com/"
-                                    var url = proxy + "https://www.inoreader.com/reader/api/0/stream/contents/feed/" +
-                                        source.url +
-                                        "?AppId=1000000612&AppKey=jrGE4gC_lD4ejlLjpACx6PeJRnLae80d"
-
-                                    return $http({
-                                        method: "GET",
-                                        url: url,
-                                        dataType: "jsonp",
-                                        crossDomain: true,
-                                        withCredentials: true,
-                                        headers: {
-                                            "Authorization": 1
-                                        }
-                                    }).then(function(response) {
-                                        return response
-                                    }).catch(function(error) {
-                                        console.error('ERROR: ', error)
-                                        throw error
-                                    })
-                    */
         }
         return rssAPI
     }])

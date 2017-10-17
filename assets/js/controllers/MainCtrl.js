@@ -35,8 +35,22 @@ angular.module('MainCtrl', ['angularjs-dropdown-multiselect'])
         $scope.keywords = ""
 
         $scope.searchSources = function() {
-            rssAPIservice.getLinks($scope.sourceModel[0]).then(function(response) {
-                $scope.rssout = response.data
-            })
-        }
+                rssAPIservice.getLinks($scope.sourceModel[0]).then(function(response) {
+                    $scope.rssout = response.items[i]
+                })
+            }
+            /*
+            google.load("feeds", "1")
+
+            $scope.searchSources = function() {
+                var feed = new google.feeds.Feed($scope.sourceModel[0].url)
+                feed.load(function(result) {
+                    if (!result.error) {
+                        var entry = result.feed.entries[0]
+                        $scope.rssout = entry
+                        console.log(entry)
+                    }
+                })
+            }
+            */
     })
