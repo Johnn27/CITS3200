@@ -13,7 +13,7 @@ module.exports = function(app) {
         Source.find(function(err, sources) {
 
             if (err) {
-                res.send(err)
+                return res.send(err)
             }
 
             res.json(sources)
@@ -27,12 +27,12 @@ module.exports = function(app) {
             url: req.body.url
         }, function(err, source) {
             if (err) {
-                res.send(err)
+                return res.status(500).end()
             }
 
             Source.find(function(err, sources) {
                 if (err) {
-                    res.send(err)
+                    return res.send(err)
                 }
 
                 res.json(sources)
@@ -46,12 +46,12 @@ module.exports = function(app) {
             _id: req.params.source_id
         }, function(err, source) {
             if (err) {
-                res.send(err)
+                return res.send(err)
             }
 
             Source.find(function(err, sources) {
                 if (err) {
-                    res.send(err)
+                    return res.send(err)
                 }
 
                 res.json(sources)

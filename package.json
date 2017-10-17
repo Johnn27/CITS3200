@@ -9,6 +9,7 @@
     "grunt": "^1.0.1",
     "method-override": "^2.3.10",
     "mongoose": "^4.7.2",
+    "mongoose-unique-validator": "^1.0.6",
     "popper.js": "^1.12.5",
     "serve-favicon": "^2.4.5",
     "serve-static": "^1.13.1"

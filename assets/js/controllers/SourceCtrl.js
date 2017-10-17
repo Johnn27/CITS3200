@@ -6,6 +6,7 @@ angular.module('SourceCtrl', ['angularjs-dropdown-multiselect'])
         $scope.deleteModel = []
         $scope.sourceName = ""
         $scope.sourceRSS = ""
+		$scope.error = ""
 
         $scope.deleteSettings = {
             selectionLimit: 1,
@@ -25,9 +26,12 @@ angular.module('SourceCtrl', ['angularjs-dropdown-multiselect'])
                 url: $scope.sourceRSS
             }
             sourceAPIservice.addSource(sourceData).then(function(response) {
+				console.log(response.status)
                 $scope.sourceList = response.data
                 console.log($scope.sourceList)
-            })
+            }).catch(function(error) {
+				$scope.error = "Invalid source name"
+			})
         }
 
         $scope.submitDelete = function() {

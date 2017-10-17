@@ -12,3 +12,7 @@
 div.navbar-brand {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+div.error {
+	text-color: red;
+}
