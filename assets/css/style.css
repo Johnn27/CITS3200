@@ -1,13 +1,6 @@
-.main-input,
-.source-input {
-    display: block;
-    margin: 2%;
-    margin-right: 10%;
-    position: relative;
-    top: 40%;
+div {
+	display: inline;
 }
-
-.source-input {}
 
 div.navbar-brand {
     font-family: Arial, Helvetica, sans-serif;
@@ -15,4 +8,8 @@ div.navbar-brand {
 
 div.error {
 	text-color: red;
+}
+
+p.lead {
+	text-align: center;
 }
