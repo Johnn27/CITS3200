@@ -1,12 +1,13 @@
 {
-    "name": "RIMT",
-    "version": "1.0.0",
-    "dependencies": {
-        "bootstrap": "3.3.7",
-        "font-awesome": "latest",
-        "angular": "1.5",
-        "angular-route": "latest",
-        "angular-google-chart": "^0.1.0",
-        "jquery": "latest"
-    }
+  "name": "RIMT",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "font-awesome": "latest",
+    "angular": "1.5",
+    "angular-route": "latest",
+    "angular-google-chart": "^0.1.0",
+    "jquery": "latest",
+    "bootstrap.ui": "^2.3.3"
+  }
 }
