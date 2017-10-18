@@ -17,3 +17,11 @@ p.lead {
 #lex {
     width: 10%;
 }
+
+tr.src-table,
+td {
+    border-style: double;
+    border-spacing: 20px;
+    margin: 20px;
+    padding: 20px;
+}
