@@ -1,0 +1,15 @@
+To run locally, install Node.js and, from the projects root directory, 
+run the command 'npm install' followed by 'node server.js' then 
+navigate to 'https://localhost:8080'.
+
+To access the remotely hosted app, navigate to 
+'http://rimt-cits3200.herokuapp.com'
+
+To access the MongoDB database used for sources and their RSS links, go to
+mlab.com and login as 
+	user: 3200GroupL
+	password: rimt_cits3200
+
+The access details for the database itself are
+	user: groupL
+	password: cits3200
