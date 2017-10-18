@@ -2,49 +2,51 @@
 
 
 <div ng-controller="MainController" ng-init="getSources()">
-	<form ng-submit="searchSources()">
-    <div class="container" id="main-form">
-        <p class="lead">Select Options</p>
-		
-		<div class="row">
-        <div class="content" id="select-s">
-            <p>Select sources: </p><nobr>
-            <div ng-dropdown-multiselect="" options="sourceList" selected-model="sourceModel" extra-settings="mainSettings"></div>
+    <form ng-submit="searchSources()">
+        <div class="container" id="main-form">
+            <p class="lead">Select Options</p>
+
+            <div class="row">
+                <div class="content" id="select-s">
+                    <p>Select sources: </p>
+                    <nobr>
+                        <div ng-dropdown-multiselect="" options="sourceList" selected-model="sourceModel" extra-settings="mainSettings"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="content" id="select-t">
+                    <p>Select start date: </p>
+                    <nobr>
+                        <input type="date" ng-model="timeModel">
+                </div>
+            </div>
+
+            <div class="row">
+                <button class="content" id="lex"> Load Lexicon </button>
+            </div>
+
+            <div class="row">
+                <div class="content">
+                    Insert Keywords: <input ng-model="keywords">
+                </div>
+            </div>
         </div>
-		</div>
-		
-		<div class="row">
-        <div class="content" id="select-t">
-            <p>Select timespan: </p><nobr>
-            <div ng-dropdown-multiselect="" options="timeList" selected-model="timeModel" extra-settings="timeSettings"></div>
+
+        <!-- Trigger the modal with a button -->
+        <div class="row">
+            <button type="submit" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">View Statistics</button>
         </div>
-		</div>
-		
-		<div class="row">
-        <button class="content" id="lex"> Load Lexicon </button>
-		</div>
-		
-		<div class="row">
-        <div class="content">
-            Insert Keywords: <input ng-model="keywords">
-        </div>
-		</div>
+
+    </form>
+
+
+    <div class="some-shit">
+        {{rssout}}
     </div>
-	
-	<!-- Trigger the modal with a button -->
-	<div class="row">
-    <button type="submit" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">View Statistics</button>
-	</div>
-	
-	</form>
-
-
-	<div class="some-shit">
-		{{rssout}}
-	</div>
 
     <div class="container">
-        
+
         <!-- Modal -->
         <div class="modal fade" id="myModal" role="dialog">
             <div class="modal-dialog modal-lg">

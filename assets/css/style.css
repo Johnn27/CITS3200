@@ -1,5 +1,5 @@
 div {
-	display: inline;
+    display: inline;
 }
 
 div.navbar-brand {
@@ -7,9 +7,13 @@ div.navbar-brand {
 }
 
 div.error {
-	text-color: red;
+    text-color: red;
 }
 
 p.lead {
-	text-align: center;
+    text-align: center;
+}
+
+#lex {
+    width: 10%;
 }

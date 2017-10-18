@@ -3,7 +3,7 @@
 angular.module('MainCtrl', ['angularjs-dropdown-multiselect'])
     .controller('MainController', function($scope, sourceAPIservice, rssAPIservice) {
         $scope.sourceModel = []
-        $scope.timeModel = []
+        $scope.timeModel = ""
 
         $scope.mainSettings = {
             enableSearch: true,
@@ -20,17 +20,6 @@ angular.module('MainCtrl', ['angularjs-dropdown-multiselect'])
                 console.log($scope.sourceList)
             })
         }
-
-        $scope.timeList = [{
-            id: 1,
-            label: "Daily"
-        }, {
-            id: 2,
-            label: "Weekly"
-        }, {
-            id: 3,
-            label: "Monthly"
-        }]
 
         $scope.keywords = ""
 
