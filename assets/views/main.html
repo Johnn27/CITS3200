@@ -7,43 +7,46 @@
             <p class="lead">Select Options</p>
 
             <div class="row">
-                <div class="content" id="select-s">
-                    <p>Select sources: </p>
-                    <nobr>
-                        <div ng-dropdown-multiselect="" options="sourceList" selected-model="sourceModel" extra-settings="mainSettings"></div>
+		<div class="col-md-8">
+                <div class="card mb-4" id="select-s">
+                    <h3 class="card-header">Select Sources</h3>
+			<p class="card-text">Select the online news or research text sources over which you wish to conduct your search</p>
+                    <div ng-dropdown-multiselect="" options="sourceList" selected-model="sourceModel" extra-settings="mainSettings"></div>
                 </div>
-            </div>
 
-            <div class="row">
-                <div class="content" id="select-t">
-                    <p>Select start date: </p>
-                    <nobr>
+            <div class="card mb-4">
+                    <h3 class="card-header">Select Start Date</h3>
+		<p class="card-text">Select the starting date from which you wish to search. The RIMT will parse all articles from your chosen source RSS feeds for keyword hits</p>
                         <input type="date" ng-model="timeModel">
                 </div>
-            </div>
 
-            <div class="row">
+            <div class="card mb-4">
+		<h3 class="card-header">Load Lexicon</h3>
+		<p class="card-text">If you have a lexicon/dictionary saved locally that you wish to import, you may load it here</p>
                 <button class="content" id="lex"> Load Lexicon </button>
             </div>
 
-            <div class="row">
-                <div class="content">
-                    Insert Keywords: <input ng-model="keywords">
-                </div>
+            <div class="card mb-4">
+		<h3 class="card-header">Input Keywords</h3>
+		<p class="card-text">Enter the words you wish the RIMT to scan for in the articles it finds. The frequency of each word will be found over time for all the chosen sources to compute an numerical 'impact' index</p>
+                    <input type="text" ng-model="keywords">
             </div>
         </div>
 
         <!-- Trigger the modal with a button -->
-        <div class="row">
+        <div class="col-md-8">
+	<div class="card mb-4">
+		<h3 class="card-header">Run Your Search</h3>
             <button type="submit" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">View Statistics</button>
         </div>
 
     </form>
 
 
-    <div class="some-shit">
+    <div class="card mb-4">
         {{rssout}}
     </div>
+	</div>
 
     <div class="container">
 
