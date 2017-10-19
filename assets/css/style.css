@@ -9,3 +9,16 @@ div.error {
 p.lead {
     text-align: center;
 }
+
+footer,
+footer p {
+    background-color: #bac6be;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+div.title {
+    background-color: #e3e7ed;
+    padding: 30px;
+}

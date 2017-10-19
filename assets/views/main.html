@@ -3,8 +3,10 @@
 <div ng-controller="MainController" ng-init="getSources()">
     <form ng-submit="searchSources()">
         <div class="container" id="main-form">
-            <h1 class="mt-4 mb-3" style="{text-align: center;}">What Would You Like to Monitor?</h1>
-            <p class="lead" style="{text-align: center;}">This page is where you enter the parameters of your search. Tell us what sources you wish to search, over what time frame and for what content</p>
+            <div class="title">
+                <h1 class="mt-4 mb-3" style="{text-align: center;}">What Would You Like to Monitor?</h1>
+                <p class="lead" style="{text-align: center;}">This page is where you enter the parameters of your search. Tell us what sources you wish to search, over what time frame and for what content</p>
+            </div>
 
             <div class="row">
                 <div class="col-md-8">
@@ -31,6 +33,8 @@
                         <p class="card-text">Enter the words you wish the RIMT to scan for in the articles it finds. The frequency of each word will be found over time for all the chosen sources to compute an numerical 'impact' index</p>
                         <textarea name="keywords" ng-model="keywords"></textarea>
                     </div>
+                    <br />
+                    <br />
                 </div>
 
                 <!-- Trigger the modal with a button -->
@@ -39,8 +43,6 @@
                         <h3 class="card-header">Run Your Search</h3>
                         <button type="submit" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Show Me A Graph</button>
                     </div>
-
-                    <br />
 
                     <div class="card mb-4">
                         {{rssout}}

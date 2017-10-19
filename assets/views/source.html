@@ -1,11 +1,13 @@
 <!-- assets/views/source.html -->
 
 <div ng-controller="SourceController" ng-init="getSources()">
-    <h1 class="mt-4 mb-3" style="{align-content: center;}">Source Management</h1>
-    <p class="lead" style="{text-align: center;}">Here you can view, add and delete your RSS feed information for your news and research sources</p>
-    <br />
-
     <div class="container">
+        <div class="title">
+            <h1 class="mt-4 mb-3" style="{align-content: center;}">Source Management</h1>
+            <p class="lead" style="{text-align: center;}">Here you can view, add and delete your RSS feed information for your news and research sources</p>
+        </div>
+        <br />
+
         <div class="row">
             <div class="col-lg-6 ml-auto">
                 <form ng-submit="submitCreate()">
@@ -42,6 +44,8 @@
                     <div class="card mb-4">
                         <input type="submit" value="Delete source">
                     </div>
+                    <br />
+                    <br />
                 </form>
             </div>
 
