@@ -4,7 +4,8 @@
 <div ng-controller="MainController" ng-init="getSources()">
     <form ng-submit="searchSources()">
         <div class="container" id="main-form">
-            <p class="lead">Select Options</p>
+            <h1 class="mt-4 mb-3" style="{text-align: center;}">What Would You Like to Monitor?</h1>
+		<p class="lead" style="{text-align: center;}">This page is where you enter the parameters of your search. Tell us what sources you wish to search, over what time frame and for what content</p>
 
             <div class="row">
 		<div class="col-md-8">
@@ -23,7 +24,7 @@
             <div class="card mb-4">
 		<h3 class="card-header">Load Lexicon</h3>
 		<p class="card-text">If you have a lexicon/dictionary saved locally that you wish to import, you may load it here</p>
-                <button class="content" id="lex"> Load Lexicon </button>
+                <button class="content" id="lex"> Load Lexicon </button><br />
             </div>
 
             <div class="card mb-4">
@@ -46,6 +47,7 @@
     <div class="card mb-4">
         {{rssout}}
     </div>
+	</div>
 	</div>
 
     <div class="container">
