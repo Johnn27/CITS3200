@@ -1,0 +1,16 @@
+Enter your keywords and then type "done" when done
+cancer
+gene
+cell
+mutat
+tumor
+radiation
+done
+
+cancer mentioned 433 times.
+gene mentioned 99 times.
+cell mentioned 77 times.
+mutat mentioned 41 times.
+tumor mentioned 38 times.
+radiation mentioned 42 times.
+Article scores 215988465924

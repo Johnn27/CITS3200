@@ -1,0 +1,137 @@
+Enter the date you wish to search from in the format 
+dd/mm/yyyy
+13/10/2017
+Fri Oct 13 00:00:00 AWST 2017
+Enter your keywords, and then type "done" when done
+abbott
+turnbull
+government
+parliament
+liberal
+labor
+shorten
+canberra
+bishop
+coalition
+done
+
+Checking article at http://www.news.com.au/national/andrew-wilkie-tables-claims-in-parliament-that-crown-casino-tampered-with-poker-machines/news-story/df0492804a43f081781249e757bfff28?from=rss-basic
+Published on Wed Oct 18 08:47:45 AWST 2017
+Score is 448
+
+Checking article at http://www.news.com.au/technology/environment/conservation/nsw-now-the-only-state-which-is-not-banning-singleuse-plastic-bags/news-story/f1b115bb59aee39a6a4955c48b51d2b1?from=rss-basic
+Published on Wed Oct 18 07:11:52 AWST 2017
+Score is 22
+
+Checking article at http://www.news.com.au/national/pm-malcolm-turnbull-blasts-state-premiers-abc-journalist-over-national-energy-guarantee/news-story/b02f2680d65da5d12f344b4104905e26?from=rss-basic
+Published on Wed Oct 18 07:11:52 AWST 2017
+Score is 565950
+
+Checking article at http://www.news.com.au/lifestyle/gay-marriage/poll-shows-australians-have-overwhelmingly-voted-yes/news-story/fa0bd193eb073ce7dcf576ad0b1b71b0?from=rss-basic
+Published on Wed Oct 18 07:11:52 AWST 2017
+Score is 24
+
+Checking article at http://www.news.com.au/finance/money/costs/prime-ministers-50c-energy-saving-mocked/news-story/373a411179549188c120128531c78650?from=rss-basic
+Published on Tue Oct 17 16:49:35 AWST 2017
+Score is 2520000
+
+Checking article at http://www.news.com.au/finance/money/costs/turnbull-presents-a-policy-which-helps-him-escape-the-energy-crisis-and-liberal-rebels/news-story/b81c29c16917ab73090427239828a2e2?from=rss-basic
+Published on Tue Oct 17 15:13:41 AWST 2017
+Score is 2878848
+
+Checking article at http://www.news.com.au/lifestyle/gay-marriage/almost-11-million-australians-have-returned-the-same-sex-marriage-survey/news-story/1aa66593bd8d10a85f1970bdf1d5790b?from=rss-basic
+Published on Tue Oct 17 11:57:22 AWST 2017
+Score is 24
+
+Checking article at http://www.news.com.au/national/courts-law/government-and-labor-want-to-see-australias-worst-child-molesters-locked-away-for-life/news-story/8b483292440820fe2efdb690c3af262c?from=rss-basic
+Published on Tue Oct 17 22:27:00 AWST 2017
+Score is 9000
+
+Checking article at http://www.news.com.au/finance/work/leaders/malcolm-turnbull-to-unveil-affordable-reliable-energy-strategy-to-cut-household-power-bills/news-story/abf2ec45058cabb5c9fabe1519ca1111?from=rss-basic
+Published on Tue Oct 17 10:20:58 AWST 2017
+Score is 4935168000
+
+Checking article at http://www.news.com.au/national/rush-hour/rush-hour-wild-weather-lashes-queensland/news-story/123c1b5698b8b99e70da88b4b3462ab4?from=rss-basic
+Published on Tue Oct 17 02:24:08 AWST 2017
+Score is 48
+
+Checking article at http://www.news.com.au/national/australia-wins-seat-on-powerful-united-nations-human-rights-council/news-story/0aea5412c403cf9fd4afa3ec39547c81?from=rss-basic
+Published on Tue Oct 17 01:35:46 AWST 2017
+Score is 693
+
+Checking article at http://www.news.com.au/national/politics/malcolm-turnbull-to-unveil-energy-plan-that-custs-power-bills-emissions/news-story/80b92b0e90019f498ec8e30f7ab0c99b?from=rss-basic
+Published on Mon Oct 16 20:46:13 AWST 2017
+Score is 48384
+
+Checking article at http://www.news.com.au/entertainment/tv/qa-anne-aly-says-its-not-ok-to-keep-making-excuses-for-sexual-assault-and-harassment/news-story/89c5807dbe07b84b347223ba8d255b90?from=rss-basic
+Published on Mon Oct 16 20:46:13 AWST 2017
+Score is 18
+
+Checking article at http://www.news.com.au/finance/business/mining/official-launch-of-adanis-carmichael-mine-cancelled/news-story/53ab437543bf83f7ea9621f0c2b00584?from=rss-basic
+Published on Mon Oct 16 16:46:06 AWST 2017
+Score is 162
+
+Checking article at http://www.news.com.au/national/politics/i-dunno-about-this-samesex-marriage-no-votes-latest-salvo/news-story/4d99552ac093dce6480daa8e05225a86?from=rss-basic
+Published on Mon Oct 16 13:33:00 AWST 2017
+Score is 252
+
+Checking article at http://www.news.com.au/national/politics/queen-made-scandalous-intervention-in-aussie-politics-says-researcher/news-story/802395e0c326e5dd45d9748fc70a49eb?from=rss-basic
+Published on Mon Oct 16 09:32:18 AWST 2017
+Score is 10080
+
+Checking article at http://www.news.com.au/entertainment/tv/morning-shows/pauline-hansons-sunrise-climate-clash-with-sarah-hansonyoung/news-story/390950259fe41a2ab5b7f898e34262fd?from=rss-basic
+Published on Mon Oct 16 12:44:33 AWST 2017
+Score is 1960
+
+Checking article at http://www.news.com.au/finance/work/leaders/tony-abbott-reflects-on-how-he-could-become-prime-minister-again/news-story/50398b89acc82190f922b9f0908fc4b8?from=rss-basic
+Published on Mon Oct 16 08:44:55 AWST 2017
+Score is 892080
+
+Checking article at http://www.news.com.au/finance/money/costs/accc-report-exposes-why-australian-power-bills-are-soaring/news-story/b3a79b7106ac10e6224c8848f1c265f1?from=rss-basic
+Published on Mon Oct 16 04:46:23 AWST 2017
+Score is 921600
+
+Checking article at http://www.news.com.au/national/rush-hour/rush-hour-scary-tv-live-cross/news-story/0b2f4374c10bf2f29ee77d0e95bff829?from=rss-basic
+Published on Mon Oct 16 00:48:12 AWST 2017
+Score is 480
+
+Checking article at http://www.news.com.au/national/politics/newspoll-malcolm-turnbull-coalition-lose-ground-to-bill-shorten/news-story/8ce0a740e02c6ee9000d9e19f3afb158?from=rss-basic
+Published on Sun Oct 15 19:13:56 AWST 2017
+Score is 28440720
+
+Checking article at http://www.news.com.au/national/greens-leader-richard-di-natale-likens-upcoming-fight-against-the-adani-mine-to-franklin-river-fight/news-story/b48ad6c2bff862251f8c14852e1cb129?from=rss-basic
+Published on Sun Oct 15 07:37:04 AWST 2017
+Score is 56
+
+Checking article at http://www.news.com.au/lifestyle/fitness/frances-abbott-flaunts-ripped-body-again-at-second-fitness-expo/news-story/8c7ce2200e9ab912d9b8743d22972bcb?from=rss-basic
+Published on Sat Oct 14 19:23:00 AWST 2017
+Score is 50
+
+Checking article at http://www.news.com.au/finance/work/australian-tradies-head-to-tradie-olympics-at-wordskills-competition-in-abu-dhabi/news-story/2bc3a2f3a1e47f76cbe4e85317f337ed?from=rss-basic
+Published on Sat Oct 14 19:23:00 AWST 2017
+Score is 16
+
+Checking article at http://www.news.com.au/finance/work/australians-willing-to-accept-pay-cuts-as-artificial-intelligence-and-robots-threaten-jobs/news-story/79c9246d5a10c870d6ba1fe8368243e6?from=rss-basic
+Published on Sat Oct 14 18:37:43 AWST 2017
+Score is 32
+
+Checking article at http://www.news.com.au/finance/work/leaders/barnaby-joyce-reveals-his-thoughts-on-high-court-citizenship-case/news-story/ff255c6163c6d0245620a926c82737c4?from=rss-basic
+Published on Sat Oct 14 10:13:06 AWST 2017
+Score is 192
+
+Checking article at http://www.news.com.au/finance/money/costs/the-money-wasters-costing-australian-households-more-than-5000-a-year/news-story/e18f8c41cf13f8cba721ad8b2401c57c?from=rss-basic
+Published on Fri Oct 13 08:16:58 AWST 2017
+Score is 36
+
+Checking article at http://www.news.com.au/finance/money/costs/private-health-insurance-reforms-what-you-need-to-know/news-story/aabefa1c2df6486599b2ca7bbaf17e1a?from=rss-basic
+Published on Fri Oct 13 06:36:19 AWST 2017
+Score is 720
+
+Checking article at http://www.news.com.au/national/politics/julie-bishop-rebukes-tony-abbott-after-speech-to-climate-sceptics/news-story/7dbf41a9e559ed2f76bcb71ccfb09759?from=rss-basic
+Published on Fri Oct 13 04:05:04 AWST 2017
+Score is 2347488
+
+Checking article at http://www.news.com.au/national/rush-hour/rush-hour-taliban-release-couple/news-story/365d1e909035ead2388bad598acebd41?from=rss-basic
+Published on Fri Oct 13 02:22:17 AWST 2017
+Score is 210
+

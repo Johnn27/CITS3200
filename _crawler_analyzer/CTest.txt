@@ -1,0 +1,185 @@
+Enter the date you wish to search from in the format 
+dd/mm/yyyy
+16/10/2017
+Mon Oct 16 00:00:00 AWST 2017
+
+Checking article at http://www.news.com.au/national/courts-law/man-not-guilty-of-random-stabbing-murder-at-bus-stop-due-to-mental-illness/news-story/21d6579e3e39a658fc64c5dbe01211eb?from=rss-basic
+Published on Wed Oct 18 10:23:16 AWST 2017
+
+Checking article at http://www.news.com.au/national/crime/sydney-railway-station-under-armed-attack-in-antiterror-exercise/news-story/98a576d428b0b4e3406601b700597bd4?from=rss-basic
+Published on Wed Oct 18 10:23:16 AWST 2017
+
+Checking article at http://www.news.com.au/technology/environment/the-unseasonably-warm-weather-isnt-going-to-last/news-story/7610a76cc8f2efe88e3f271d735a6961?from=rss-basic
+Published on Wed Oct 18 09:35:42 AWST 2017
+
+Checking article at http://www.news.com.au/national/nsw-act/courts-law/woman-abuses-strippers-in-feud-between-rival-clubs/news-story/e95dfed2f859259cf7befdd302dc986f?from=rss-basic
+Published on Wed Oct 18 08:47:45 AWST 2017
+
+Checking article at http://www.news.com.au/national/victoria/crime/why-daughter-of-murdered-retailer-karen-ristevski-stopped-talking-to-police/news-story/9614c881abec7521a304aa467ef1f521?from=rss-basic
+Published on Wed Oct 18 11:59:25 AWST 2017
+
+Checking article at http://www.news.com.au/national/andrew-wilkie-tables-claims-in-parliament-that-crown-casino-tampered-with-poker-machines/news-story/df0492804a43f081781249e757bfff28?from=rss-basic
+Published on Wed Oct 18 08:47:45 AWST 2017
+
+Checking article at http://www.news.com.au/technology/environment/conservation/nsw-now-the-only-state-which-is-not-banning-singleuse-plastic-bags/news-story/f1b115bb59aee39a6a4955c48b51d2b1?from=rss-basic
+Published on Wed Oct 18 07:11:52 AWST 2017
+
+Checking article at http://www.news.com.au/national/pm-malcolm-turnbull-blasts-state-premiers-abc-journalist-over-national-energy-guarantee/news-story/b02f2680d65da5d12f344b4104905e26?from=rss-basic
+Published on Wed Oct 18 07:11:52 AWST 2017
+
+Checking article at http://www.news.com.au/lifestyle/gay-marriage/poll-shows-australians-have-overwhelmingly-voted-yes/news-story/fa0bd193eb073ce7dcf576ad0b1b71b0?from=rss-basic
+Published on Wed Oct 18 07:11:52 AWST 2017
+
+Checking article at http://www.news.com.au/national/nsw-act/newcastle-teenager-dead-after-pool-incident/news-story/a44f8127cfed6785988aefc8d15556b6?from=rss-basic
+Published on Wed Oct 18 08:47:45 AWST 2017
+
+Checking article at http://www.news.com.au/national/victoria/crime/protective-services-officer-shot-with-imitation-gun-while-patrolling-highett-train-station/news-story/afdd82a3ea33bf6045cff9c5896a8bd5?from=rss-basic
+Published on Wed Oct 18 05:37:22 AWST 2017
+
+Checking article at http://www.news.com.au/national/victoria/politics/australia-day-council-ignores-call-to-dump-citizenship-ceremonies/news-story/a79ec9cfbd83238644b6bc7ef65af3cf?from=rss-basic
+Published on Wed Oct 18 04:01:53 AWST 2017
+
+Checking article at http://www.news.com.au/national/rush-hour/rush-hour-police-camera-captures-kangaroo-brawl/news-story/9e482b53699c360ab93cf9419ac4c9be?from=rss-basic
+Published on Tue Oct 17 19:14:34 AWST 2017
+
+Checking article at http://www.news.com.au/national/nsw-act/teenage-boy-dies-after-allegedly-assaulted-an-employee-at-lambton-pool/news-story/29e535ce3c9e34b4b93e7f061f29a2c6?from=rss-basic
+Published on Tue Oct 17 16:49:35 AWST 2017
+
+Checking article at http://www.news.com.au/finance/money/costs/prime-ministers-50c-energy-saving-mocked/news-story/373a411179549188c120128531c78650?from=rss-basic
+Published on Tue Oct 17 16:49:35 AWST 2017
+
+Checking article at http://www.news.com.au/lifestyle/health/health-problems/disease-outbreak-the-deadly-virus-killing-dozens-of-australian-kids-each-year/news-story/4d8bab8824aa90ec15220c116ffe7d43?from=rss-basic
+Published on Tue Oct 17 14:25:02 AWST 2017
+
+Checking article at http://www.news.com.au/national/victoria/crime/teenage-boy-arrested-for-driving-fake-emergency-vehicle/news-story/4bb3db2c9c1bebd4ec0a1143e18c6c29?from=rss-basic
+Published on Tue Oct 17 12:45:10 AWST 2017
+
+Checking article at http://www.news.com.au/finance/money/costs/turnbull-presents-a-policy-which-helps-him-escape-the-energy-crisis-and-liberal-rebels/news-story/b81c29c16917ab73090427239828a2e2?from=rss-basic
+Published on Tue Oct 17 15:13:41 AWST 2017
+
+Checking article at http://www.news.com.au/lifestyle/gay-marriage/almost-11-million-australians-have-returned-the-same-sex-marriage-survey/news-story/1aa66593bd8d10a85f1970bdf1d5790b?from=rss-basic
+Published on Tue Oct 17 11:57:22 AWST 2017
+
+Checking article at http://www.news.com.au/national/nsw-act/crime/six-injured-after-gangs-25km-crime-spree-in-sydney-overnight/news-story/129e7ec2408df299c83bf078a10fd38a?from=rss-basic
+Published on Tue Oct 17 11:08:58 AWST 2017
+
+Checking article at http://www.news.com.au/national/courts-law/government-and-labor-want-to-see-australias-worst-child-molesters-locked-away-for-life/news-story/8b483292440820fe2efdb690c3af262c?from=rss-basic
+Published on Tue Oct 17 22:27:00 AWST 2017
+
+Checking article at http://www.news.com.au/national/nsw-act/nsw-students-told-to-write-letters-to-convicted-paedophile/news-story/ab18a4642892457484f6034ec6d248db?from=rss-basic
+Published on Tue Oct 17 09:33:49 AWST 2017
+
+Checking article at http://www.news.com.au/news/human-remains-found-in-crocodile-believed-to-have-killed-queensland-grandmother/news-story/7bc2ec7480409161d48bd24af69ac7d0?from=rss-basic
+Published on Tue Oct 17 09:33:49 AWST 2017
+
+Checking article at http://www.news.com.au/national/queensland/crime/bail-increased-for-accused-attacker-of-rudds-godson/news-story/d5de2acc5d498dbc4369c5733c659124?from=rss-basic
+Published on Tue Oct 17 09:33:49 AWST 2017
+
+Checking article at http://www.news.com.au/national/queensland/queensland-weather-man-fighting-for-life-after-brisbane-flood-accident/news-story/2e0fdf825e9c4f70e9ba2c18b086895b?from=rss-basic
+Published on Tue Oct 17 08:45:39 AWST 2017
+
+Checking article at http://www.news.com.au/technology/environment/queensland-weather-search-for-missing-trawler-after-downpour/news-story/6f4fe6ef0daac68b087aa768020894ca?from=rss-basic
+Published on Tue Oct 17 11:57:22 AWST 2017
+
+Checking article at http://www.news.com.au/finance/work/leaders/malcolm-turnbull-to-unveil-affordable-reliable-energy-strategy-to-cut-household-power-bills/news-story/abf2ec45058cabb5c9fabe1519ca1111?from=rss-basic
+Published on Tue Oct 17 10:20:58 AWST 2017
+
+Checking article at http://www.news.com.au/national/queensland/crime/baby-assaulted-at-the-gap-brisbane/news-story/07639d43488a454666b358d2d81a56ae?from=rss-basic
+Published on Tue Oct 17 06:22:31 AWST 2017
+
+Checking article at http://www.news.com.au/technology/innovation/motoring/on-the-road/firefighters-battle-blaze-of-motorhomes-on-gold-coast/news-story/c9cd704a137ab9471a4ab0dbb85b4649?from=rss-basic
+Published on Tue Oct 17 07:58:30 AWST 2017
+
+Checking article at http://www.news.com.au/national/queensland/news/queensland-weather-flash-flooding-alerts/news-story/94e03b44e9d3a761fd707f681b0230e1?from=rss-basic
+Published on Tue Oct 17 04:47:01 AWST 2017
+
+Checking article at http://www.news.com.au/national/queensland/crime/police-issue-description-of-man-who-lifted-girl-from-bed-in-loganlea-home-and-then-assaulted-her/news-story/a1b29d70e222feae4aa4f337efb8d673?from=rss-basic
+Published on Tue Oct 17 03:59:34 AWST 2017
+
+Checking article at http://www.news.com.au/national/rush-hour/rush-hour-wild-weather-lashes-queensland/news-story/123c1b5698b8b99e70da88b4b3462ab4?from=rss-basic
+Published on Tue Oct 17 02:24:08 AWST 2017
+
+Checking article at http://www.news.com.au/national/australia-wins-seat-on-powerful-united-nations-human-rights-council/news-story/0aea5412c403cf9fd4afa3ec39547c81?from=rss-basic
+Published on Tue Oct 17 01:35:46 AWST 2017
+
+Checking article at http://www.news.com.au/entertainment/awards/australian-childrens-tv-shows-little-lunch-and-boxwars/news-story/8a6d56ddb394048f29b8f76210a9b622?from=rss-basic
+Published on Tue Oct 17 00:48:11 AWST 2017
+
+Checking article at http://www.news.com.au/national/albert-namatjiras-family-recovers-copyright-of-his-work-after-decadeslong-battle/news-story/6507b074cf446a1b24a7de64c83404b0?from=rss-basic
+Published on Mon Oct 16 23:59:16 AWST 2017
+
+Checking article at http://www.news.com.au/national/politics/malcolm-turnbull-to-unveil-energy-plan-that-custs-power-bills-emissions/news-story/80b92b0e90019f498ec8e30f7ab0c99b?from=rss-basic
+Published on Mon Oct 16 20:46:13 AWST 2017
+
+Checking article at http://www.news.com.au/entertainment/tv/qa-anne-aly-says-its-not-ok-to-keep-making-excuses-for-sexual-assault-and-harassment/news-story/89c5807dbe07b84b347223ba8d255b90?from=rss-basic
+Published on Mon Oct 16 20:46:13 AWST 2017
+
+Checking article at http://www.news.com.au/technology/gadgets/melbourne-mans-home-made-electric-bike-explodes-on-street/news-story/1ecb3f18eb29c8230db025dc82371b06?from=rss-basic
+Published on Mon Oct 16 16:46:06 AWST 2017
+
+Checking article at http://www.news.com.au/national/nsw-act/courts-law/nsw-man-in-court-over-bus-stop-attack/news-story/e81410490be45c70f6b578f3f8809e84?from=rss-basic
+Published on Mon Oct 16 15:58:20 AWST 2017
+
+Checking article at http://www.news.com.au/national/victoria/pedestrians-injured-as-car-ploughs-into-melbourne-building/news-story/cf3dc33b5eb9920a671e61dbcfb556ff?from=rss-basic
+Published on Mon Oct 16 15:09:41 AWST 2017
+
+Checking article at http://www.news.com.au/national/victoria/police-confirm-body-found-near-anglesea-was-missing-woman-elisa-curry/news-story/c6e5444f18d582edc3fd9cafcd3b2ea9?from=rss-basic
+Published on Mon Oct 16 15:09:41 AWST 2017
+
+Checking article at http://www.news.com.au/finance/business/mining/official-launch-of-adanis-carmichael-mine-cancelled/news-story/53ab437543bf83f7ea9621f0c2b00584?from=rss-basic
+Published on Mon Oct 16 16:46:06 AWST 2017
+
+Checking article at http://www.news.com.au/lifestyle/parenting/school-life/can-you-do-these-maths-questions-in-60-seconds/news-story/be6bbbcdd498c293d70ab90cd3409031?from=rss-basic
+Published on Mon Oct 16 14:21:11 AWST 2017
+
+Checking article at http://www.news.com.au/national/politics/i-dunno-about-this-samesex-marriage-no-votes-latest-salvo/news-story/4d99552ac093dce6480daa8e05225a86?from=rss-basic
+Published on Mon Oct 16 13:33:00 AWST 2017
+
+Checking article at http://www.news.com.au/lifestyle/parenting/kids/sexist-crap-targets-pink-toy-beauty-kit-attacked-on-social-media/news-story/f8521ae151f3c72b01adb0a437ce0994?from=rss-basic
+Published on Mon Oct 16 12:44:33 AWST 2017
+
+Checking article at http://www.news.com.au/national/queensland/crime/police-hunt-man-who-snatched-sixyearold-girl-from-her-bedroom-in-loganlea-qld/news-story/0588a26afdb7444ede0998ef1d062d50?from=rss-basic
+Published on Mon Oct 16 10:20:13 AWST 2017
+
+Checking article at http://www.news.com.au/technology/innovation/motoring/on-the-road/mitsubishi-recalls-lancer-asx-outlander-models/news-story/871ec1393bd145b179d9ee9f9eedd6ac?from=rss-basic
+Published on Mon Oct 16 13:33:00 AWST 2017
+
+Checking article at http://www.news.com.au/national/politics/queen-made-scandalous-intervention-in-aussie-politics-says-researcher/news-story/802395e0c326e5dd45d9748fc70a49eb?from=rss-basic
+Published on Mon Oct 16 09:32:18 AWST 2017
+
+Checking article at http://www.news.com.au/entertainment/tv/morning-shows/pauline-hansons-sunrise-climate-clash-with-sarah-hansonyoung/news-story/390950259fe41a2ab5b7f898e34262fd?from=rss-basic
+Published on Mon Oct 16 12:44:33 AWST 2017
+
+Checking article at http://www.news.com.au/finance/work/leaders/tony-abbott-reflects-on-how-he-could-become-prime-minister-again/news-story/50398b89acc82190f922b9f0908fc4b8?from=rss-basic
+Published on Mon Oct 16 08:44:55 AWST 2017
+
+Checking article at http://www.news.com.au/national/nsw-act/salim-mehajer-injured-in-car-crash/news-story/1eb7a36de7b4ade7092aac3a15ab0fd8?from=rss-basic
+Published on Mon Oct 16 07:09:36 AWST 2017
+
+Checking article at http://www.news.com.au/lifestyle/health/health-problems/desperate-mum-breaks-law-with-homemade-cannabis-oil-for-daughter/news-story/0c1bb45ec47a71a2b4ff6baa8f55cb2e?from=rss-basic
+Published on Mon Oct 16 10:20:13 AWST 2017
+
+Checking article at http://www.news.com.au/finance/money/costs/accc-report-exposes-why-australian-power-bills-are-soaring/news-story/b3a79b7106ac10e6224c8848f1c265f1?from=rss-basic
+Published on Mon Oct 16 04:46:23 AWST 2017
+
+Checking article at http://www.news.com.au/national/victoria/crime/two-men-shot-another-critically-injured-in-melbourne/news-story/5a0255d6fe2828b1b52079d2884b81a2?from=rss-basic
+Published on Mon Oct 16 04:46:23 AWST 2017
+
+Checking article at http://www.news.com.au/technology/environment/brisbane-queensland-weather-brace-for-a-months-worth-of-rain/news-story/e86ea022f27ad595d39ebc1037eb7928?from=rss-basic
+Published on Mon Oct 16 04:46:23 AWST 2017
+
+Checking article at http://www.news.com.au/news/fake-snake-causes-chaos-at-an-early-learning-centre/news-story/01a34979b24a756b5f333ffc7b8f43a0?from=rss-basic
+Published on Mon Oct 16 04:46:23 AWST 2017
+
+Checking article at http://www.news.com.au/national/victoria/security-stepped-up-over-terrorist-fears-for-christmas-lights-display/news-story/9215d3023846bcbce45784a1d1b03135?from=rss-basic
+Published on Mon Oct 16 04:46:23 AWST 2017
+
+Checking article at http://www.news.com.au/national/queensland/crime/good-samaritan-tom-freshwater-seriously-injured-in-one-punch-attack/news-story/cbbf971ab4d46cd85895f41c21f24973?from=rss-basic
+Published on Mon Oct 16 03:58:54 AWST 2017
+
+Checking article at http://www.news.com.au/national/rush-hour/rush-hour-scary-tv-live-cross/news-story/0b2f4374c10bf2f29ee77d0e95bff829?from=rss-basic
+Published on Mon Oct 16 00:48:12 AWST 2017
+
+Checking article at http://www.news.com.au/national/western-australia/boy-15-arrested-over-rape-of-83yearold-grandmother-in-her-perth-home/news-story/b4d985ebd79222b40e4eeb9d8dc9419b?from=rss-basic
+Published on Mon Oct 16 01:36:35 AWST 2017
+

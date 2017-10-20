@@ -1,0 +1,15 @@
+To run the project:
+
+Compile with: java *.java
+
+To run overall project call: java Stream
+You will then be asked for a date and some key words that will be used to search the articles for.
+(The overall running of this system is the same as test D)
+
+To run test B call: java Reader
+You will be asked for key words.
+
+To run test C call: java Stream C
+You will be asked for a date to search back until.
+
+ 
