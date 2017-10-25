@@ -3,11 +3,23 @@ div.navbar-brand {
 }
 
 div.error {
-    text-color: red;
+    color: red;
 }
 
 p.lead {
     text-align: center;
+}
+
+html {
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
 }
 
 footer,
